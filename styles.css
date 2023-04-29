@@ -27,9 +27,16 @@ p {
 
 section {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     align-items: center;
     padding: 100px;
+    margin-top: 60px;
+}
+
+section.home {
+    flex-direction: row;
+    /* margin-top: 0; */
 }
 
 .logo {
@@ -153,6 +160,8 @@ section {
 .btn:hover {
     transform: scale(0.98);
 }
+
+/* Services */
 
 /* Mobile device */
 @media(max-width: 1068px) {
